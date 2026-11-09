@@ -1,7 +1,16 @@
 {
-  "name": "api-send-email-vercel",
+  "name": "xtx-email-api",
   "version": "1.0.0",
+  "private": true,
+  "description": "XTX Email Sending API",
+  "main": "api/send-email.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "node api/send-email.js"
+  },
   "dependencies": {
-    "nodemailer": "^6.9.13"
+    "nodemailer": "6.10.1"
   }
 }
